@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    background-color: #dc993c;
+    height: 120px;
+}
+
+.div1 img {
+    width: 110px;
+    padding: 12px;
+    margin-right: 20px;
+}
+
+.div1 h1 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 750%;
+    color: rgb(48, 31, 19);
+    text-shadow: 5px 5px 5px black;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(220, 153, 60);
+    position: sticky;
+    top: 0;
+    height: 25px;
+    z-index: 800;
+}
+
+.div2 h4 {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+main {
+    background-color: #ecd076;
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+    color: #3f260f;
+}
+
+.row h1 {
+    font-size: 60px;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+.col p {
+    /* padding: 25px 50px 75px 100px; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    margin-left: 400px;
+    text-align: justify;
+    border: 2px solid rgb(46, 83, 114);
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+/* Types */
+#types h1 {
+    font-family: Shadows Into Light;
+    text-shadow: 2px 3px 4px black;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+ul {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: justify;
+}
+
+#types p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+}
+
+/* brands */
+#brand h1 {
+    font-family: Shadows Into Light;
+    text-shadow: 2px 3px 4px black;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#brand img {
+    width: 330px;
+    object-fit: cover;
+    height: 250px;
+    box-shadow: 4px 4px 6px black;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1);
+
+
+}
+
+.row1 {
+    display: flex;
+    padding: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-around;
+}
+
+.row1 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    text-align: justify;
+    width: 500px;
+}
+
+.para {
+    padding: 25px;
+}
+
+.row2 {
+    display: flex;
+    padding: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-around;
+}
+
+.row2 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    text-align: justify;
+    width: 500px;
+
+}
+
+.row3 {
+    display: flex;
+    padding: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-around;
+}
+
+.row3 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    text-align: justify;
+    width: 500px;
+
+}
+
+.row4 {
+    display: flex;
+    padding: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-around;
+}
+
+.row4 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    text-align: justify;
+    width: 500px;
+
+}
+
+.row5 {
+    display: flex;
+    padding: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-around;
+}
+
+.row5 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+    text-align: justify;
+    width: 500px;
+}
+
+#gallery h1 {
+    font-family: Shadows Into Light;
+    text-shadow: 2px 3px 4px black;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.photos {
+    background-color: #dc993c;
+    width: 1000px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 2px 3px 3px 2px black;
+    border-radius: 10px;
+
+}
+
+#gallery img {
+    height: 250px;
+    width: 300px;
+
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 24px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#gallery img:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pic1 {
+    padding: 10px;
+}
+
+.pic2 {
+    padding: 10px;
+}
+
+.pic3 {
+    padding: 10px;
+}
+
+#query h1 {
+    font-family: Shadows Into Light;
+    text-shadow: 2px 2px 5px;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.form {
+    background-color: #dc993c;
+    margin: 20px;
+    width: 400px;
+    box-shadow: 2px 2px 5px black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-control {
+    font-family: 'Playfair Display', serif;
+    padding: 10px 15px 20px 25px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 30px;
+}
+
+button {
+    background-color: #550d0d;
+    color: beige;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 150px;
+}
+
+.roow {
+    display: flex;
+    background-color: #dc993c;
+    justify-content: space-between;
+
+}
+
+.foot1 {
+    padding: 25px;
+}
+
+.foot2 {
+    padding: 25px;
+    font-family: 'Playfair Display', serif;
+    justify-content: center; 
+    align-items: center;
+}
+
+.foot2 h1 {
+    font-family: Shadows Into Light;
+    text-shadow: 2px 2px 3px;
+}
+.foot2 ul {
+    display: flex;  
+}
+.foot2 ul li{
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.foot3 {
+    padding: 25px;
+    font-family: 'Playfair Display', serif;
+    justify-content: center; 
+    align-items: center;
+}
+.foot3 h1 {
+    font-family: Shadows Into Light;
+    text-shadow: 2px 2px 3px;
+}
+.foot3 a{
+    text-decoration: none;
+    font-weight: bold;
+}
